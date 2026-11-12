@@ -1,0 +1,769 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+background-color: #0A0E17;
+font-family:Arial, Helvetica, sans-serif ;
+display: flex;
+flex-direction: column;
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+}
+/* Cabeçalho*/
+
+
+header {
+    background-color: #07080A;
+    padding: auto;
+    text-align: center;
+    color: #fff;
+    img{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        cursor: pointer;
+    }
+    img:hover{
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+   
+    
+    a{
+    text-decoration: none;
+    color: #FFFFF0;
+    font-size: 18px;
+    padding: auto;
+
+    }
+
+    a:hover{
+    color: grey;
+    }
+
+}
+
+
+.logo{
+    margin: 0 auto;
+}
+
+  
+
+/*games*/
+
+main{
+    color: white;
+}
+
+
+.jogos{
+padding: 20px;
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+/* KCD*/
+.kcd{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    
+    p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.kcd:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+/* God of war*/
+.gow{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.gow:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    
+}
+.god{
+   background-color: #171a21;
+
+}
+
+.godh{
+    background-color: cyan;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+
+ 
+    
+    a{
+        text-decoration: none;
+        color: white;
+        height: 25px;
+    }
+
+    a:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    color: greenyellow;
+    background-color: black;
+    border: 1px solid white;
+    padding: 2px;
+    
+    }
+}  
+
+
+/* RED2*/
+
+.rdr{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.rdr:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* TW3*/
+.twh{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.twh:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.BD3{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.BD3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.tl2{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.tl2:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.hks{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.hks:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.HK{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.HK:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.ds{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.ds:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.ds2{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.ds2:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.ds3{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.ds3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.elden{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.elden:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.dh{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.dh:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.Di{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.Di:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.dodo{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.dodo:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.MI{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.MI:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.mine{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.mine:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.SW{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.SW:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.TLOU{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.TLOU:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.Terra{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.Terra:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.Mario{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.Mario:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.stave{
+display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
+border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #20232A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+
+p{
+        background-color: green;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+}
+.stave:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+
+/* Resto*/
+
+@media(min-width: 1024px){
+footer{
+    color: white;
+    background-color: #000;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 40%;
+}
+
+}
+
+.caixa {
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    min-width: 0;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media(min-width: 1024px){
+.ordem {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.ordem img {
+    width: 40vw;
+    height: 60vh;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}  
+}
+.info h4 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+.info p{
+color: white;
+font-size: 18px;
+}
+.info button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.info button:hover {
+    background-color: #1C1E26;
+}
+
+/*Tela*/
+@media(max-width: 1023px) {
+
+
+.ordem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    position:relative;
+    right: 16%;
+}
+
+.ordem img {
+  width: auto;
+  max-width: 300px;
+  height: auto;
+    
+}
+
+.info {
+  width: 50vw;
+  text-align: center;
+}
+footer{
+    color: white;
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    margin-top: auto;
+}
+.caixa {
+    text-align: center;
+    width: 10%;
+    max-width: 900px;
+    min-width: 0;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+}
+
+.Supo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 30vh; 
+
+}
+.Supo h2{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.Supo textarea{
+   width: 30vw;
+   height: 5vh;
+}
+.Supo button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Supo button:hover {
+    background-color: #1C1E26;
+}
+
+.RS{
+  text-align: center;
+  position: relative;
+  top: 50vh;
+
+}
+.RS img{
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+   
+}
+.RS h2{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.RS h4{
+    color: white;
+}
+
+
+
